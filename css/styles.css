@@ -75,7 +75,7 @@ body {
 
 main {
   height: auto;
-  background: url(images/background.png);
+  background: url(/images/background.png);
   padding-top: 5%;
   padding-bottom: 10%;
   background-repeat: no-repeat;
