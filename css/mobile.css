@@ -4,6 +4,14 @@
     width: 70%;
   }
 
+  .donkey {
+
+  right: -109%;
+  bottom: 133%;
+  width: 61%;
+  position: relative;
+}
+
   .menu {
 
   margin-left: 26%;
@@ -19,12 +27,12 @@
   }
 
   .donkey_text_box {
-    width: 70%;
-    margin-right: 3%;
-    margin-left: 30%;
+    width: 54%;
+    margin-left: 3%;
+    margin-right: 38%;
     margin-top: 2%;
     margin-bottom: 10%;
-    height: auto;
+    /*! height: auto; */
   }
 
   .link {
@@ -50,6 +58,7 @@
   .games_text_box {
 
     width: 56%;
+    height: 42%;
   }
 
   .games_text_box2 {
@@ -123,6 +132,30 @@
   .link {
     display: none;
   }
+
+   .orange_text_box {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+  }
+
+  .orange_text_box h1 {
+    font-size: xxx-large;
+    width: auto;
+  }
+
+  .orange_text_box p {
+    font-size: x-large;
+    /*! margin: 0; */
+    /*! padding: 1%; */
+  }
+  .orange_background_box {
+    /*! width: auto; */
+    /*! height: 100%; */
+    /*! display: inline; */
+    /*! width: auto; */
+}
 
   .donkey_text_box {
     margin: auto;
@@ -205,6 +238,10 @@
   .games_text_box p {
     font-size: x-large;
     display: block;
+  }
+
+  .donkey {
+    display: none;
   }
 
 }
