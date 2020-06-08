@@ -1,0 +1,342 @@
+.top_panel {
+  display: flex;
+  background-color: rgba(76, 212, 176, 1);
+  width: 100%;
+  height: 65px;
+}
+
+.name {
+  width: auto;
+  padding: 10px;
+
+}
+
+.menu_button {
+  width: 130px;
+  margin-left: 20px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFCE6;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo_name {
+  font-size: x-large;
+  margin: 0;
+  /*! width: auto; */
+  white-space: nowrap;
+}
+
+.logo_description {
+  font-size: x-small;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.logo {
+  width: auto;
+}
+
+.menu_box {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  height: 100%;
+  float: right;
+  width: auto;
+  /*! margin-right: 15%; */
+  /*! margin-left: ; */
+  /*! margin: auto; */
+  margin-left: 50%;
+  /*! margin-right: 2%; */
+}
+
+.menu_item {
+  white-space: nowrap;
+  margin: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.logo_pic {
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  padding-left: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+main {
+  height: auto;
+  background: url(/images/background.png);
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color:#FFFCE6;
+  text-decoration: none;
+}
+
+.welcome_box {
+  /*! padding-top: 5%; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  /*! margin-top: 17%; */
+}
+
+
+
+.blue_background_box {
+  background-color: rgba(76, 212, 176, .33);
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  margin: ;
+}
+
+
+footer {
+  background-color: #4CD4B0;
+  /*! height: 98px; */
+  height: auto;
+  /*! display: flex; */
+}
+
+.blue_text_box {
+  width: 40%;
+  height: 63%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(76, 212, 176, .95);
+}
+
+.blue_text_box h1
+{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-top: 5%;
+  font-size: xxx-large;
+}
+
+.blue_text_box p {
+  padding: 5%;
+  padding-right: 10%;
+}
+
+.mario {
+  width: 248px;
+  position: relative;
+  /*! right: 25%; */
+  float: right;
+  right: -20%;
+  bottom: 75%;
+}
+
+.about_box {
+  /*! padding-top: 5%; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  /*! margin-top: 17%; */
+}
+
+
+.orange_background_box {
+  background-color: rgba(242, 77, 22, .33);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  margin: ;
+}
+
+.orange_text_box {
+  width: 40%;
+  height: auto;
+  /*! margin-right: 5%; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(242, 77, 22, .95);
+  margin-left: 50%;
+}
+
+.orange_text_box  h1
+{
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  font-size: xx-large;
+  padding: 0;
+}
+
+.orange_text_box p {
+  /*! padding: 5%; */
+  /*! padding-right: 10%; */
+  margin: 6%;
+  /*! font-size: large; */
+}
+
+.link {
+  width: 100%;
+  position: relative;
+  /*! right: 25%; */
+  float: left;
+  right: 120%;
+
+  /*! top: -139%; */
+  bottom: 130%;
+}
+
+footer {
+  /*! height: auto; */
+}
+
+.footer_container {
+  padding: 1%;
+  display: flex;
+  /*! width: 100%; */
+  /*! float: right; */
+}
+.info {
+  /*! float: ; */
+  /*! float: right; */
+  float: left;
+  width: auto;
+}
+
+.buttom_links {
+  float: right;
+  margin-right: -10;
+  margin: auto;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+.megaman {
+  position: absolute;
+  width: 34%;
+  right: 5%;
+  z-index: 22;
+}
+
+.games_box {
+  /*! padding-top: 5%; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  /*! margin-top: 17%; */
+}
+
+.games_text_box {
+  width: 40%;
+  height: 35%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(76, 212, 176, .95);
+  padding-bottom: 2%;
+}
+
+.games_text_box h1
+{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-top: 5%;
+  font-size: xxx-large;
+  margin: 0;
+}
+
+.games_text_box p {
+  padding: 5%;
+  padding-right: 10%;
+  display: none;
+}
+
+.games_text_box2 {
+  width: 37%;
+  height: auto;
+  /*! margin-left: 10%; */
+  /*! margin-top: 2%; */
+  /*! margin-bottom: 2%; */
+  background-color: rgba(76, 212, 176, .95);
+  padding-bottom: 2%;
+  position: absolute;
+  /*! top: 56%; */
+  bottom: 12%;
+  left: 7%;
+}
+
+.games_text_box2 p {
+  padding: 5%;
+  padding-right: 10%;
+  margin: 0;
+}
+
+
+.donkey_background_box {
+  background-color: rgba(242, 77, 22, .33);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  margin: ;
+}
+
+.donkey_text_box {
+  width: 40%;
+  height: auto;
+  /*! margin-right: 5%; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(242, 77, 22, .95);
+  margin-right: 50%;
+}
+
+.donkey_text_box  h1
+{
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  font-size: xx-large;
+  padding: 0;
+}
+
+.donkey_text_box p {
+  /*! padding: 5%; */
+  /*! padding-right: 10%; */
+  margin: 6%;
+  /*! font-size: large; */
+}
+
+.donkey {
+
+  position: absolute;
+  right: 10%;
+  bottom: -101%;
+  width: 34%;
+}
