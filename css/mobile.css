@@ -4,13 +4,7 @@
     width: 70%;
   }
 
-  .donkey {
-
-  right: -109%;
-  bottom: 133%;
-  width: 61%;
-  position: relative;
-}
+  .donkey {right: 2%;top: 876px;width: 30%;position: absolute;}
 
   .menu {
 
@@ -69,13 +63,7 @@
     font-size: large;
   }
 
-  .sonic {
-
-  left: -67%;
-  bottom: 127%;
-  width: 31%;
-  position: relative;
-}
+  .sonic {left: 6%;top: 1386px;width: 18%;position: absolute;}
 
   .sonic_text_box {
     width: 54%;
@@ -86,13 +74,7 @@
     /*! height: auto; */
   }
 
-  .pacman {
-
-  right: -109%;
-  bottom: 133%;
-  width: 61%;
-  position: relative;
-  }
+  .pacman {right: 0;top: 1921px;width: 29%;position: absolute;position: a;}
 
   .pacman_text_box {
     width: 54%;

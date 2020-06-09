@@ -335,13 +335,7 @@ footer {
   /*! font-size: large; */
 }
 
-.donkey {
-
-  right: -146%;
-  bottom: 147%;
-  width: 77%;
-  position: relative;
-}
+.donkey {right: 5%;top: 829px;width: 26%;position: absolute;}
 
 
 .sonic_background_box {
@@ -382,13 +376,7 @@ footer {
   /*! font-size: large; */
 }
 
-.sonic {
-
-  left: -100%;
-  bottom: 150%;
-  width: 35%;
-  position: relative;
-}
+.sonic {left: 124px;top: 1396px;width: 15%;position: absolute;}
 
 
 .pacman_background_box {
@@ -429,10 +417,4 @@ footer {
   /*! font-size: large; */
 }
 
-.pacman {
-
-  right: -146%;
-  bottom: 147%;
-  width: 59%;
-  position: relative;
-}
+.pacman {right: 87px;top: 1977px;width: 25%;position: absolute;}
