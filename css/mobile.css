@@ -4,7 +4,23 @@
     width: 70%;
   }
 
-  .donkey {right: 2%;top: 876px;width: 30%;position: absolute;}
+  .console_text_box {
+    width: 70%;
+  }
+
+  .ps3 {
+    left: 30px;
+    top: 1267px;
+    width: 37%;
+    /*! position: absolute; */
+  }
+
+  .donkey {
+    right: 2%;
+    top: 876px;
+    width: 30%;
+    position: absolute;
+  }
 
   .menu {
 
@@ -83,6 +99,13 @@
     margin-top: 2%;
     margin-bottom: 10%;
     /*! height: auto; */
+  }
+
+  .switch {
+  right: 53px;
+  top: 1945px;
+  width: 35%;
+  position: absolute;
   }
 
 }
@@ -180,6 +203,8 @@
     width: 100%;
     height: auto;
     padding: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .donkey_text_box h1 {
@@ -267,6 +292,26 @@
     z-index: 1;
   }
 
+  .console_text_box {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .console_text_box h1 {
+    font-size: xxx-large;
+  }
+
+  .console_text_box p {
+    font-size: x-large;
+  }
+  .console_background_box {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    z-index: 1;
+  }
+
   .menu {
 
   flex-direction: column;
@@ -323,5 +368,21 @@
 
   .sonic_box {
     margin-bottom: 20%;
+  }
+
+  .ps2 {
+    display: none;
+  }
+
+  .atari {
+    display: none;
+  }
+
+  .ps3 {
+    display: none;
+  }
+
+  .switch {
+    display: none;
   }
 }

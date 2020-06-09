@@ -418,3 +418,68 @@ footer {
 }
 
 .pacman {right: 87px;top: 1977px;width: 25%;position: absolute;}
+
+
+.console_background_box {
+  background-color: rgba(76, 212, 176, .33);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  margin: ;
+}
+.console_text_box {
+  width: 40%;
+  height: 63%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(76, 212, 176, .95);
+}
+
+.console_text_box h1
+{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-top: 5%;
+  font-size: xx-large;
+}
+
+.console_text_box p {
+  padding: 5%;
+  padding-right: 10%;
+  /*! margin: auto; */
+}
+
+.ps2 {
+    width: 313px;
+  position: relative;
+  /*! right: 25%; */
+  float: right;
+  right: -20%;
+  bottom: 75%;
+}
+
+.atari {
+  right: 5%;
+  top: 953px;
+  width: 35%;
+  position: absolute;
+}
+
+.ps3 {
+  left: 69px;
+  top: 1327px;
+  width: 31%;
+  position: absolute;
+}
+
+.switch {
+  right: 106px;
+  top: 2057px;
+  width: 32%;
+  position: absolute;
+}
