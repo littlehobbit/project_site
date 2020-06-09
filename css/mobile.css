@@ -85,6 +85,24 @@
     margin-bottom: 10%;
     /*! height: auto; */
   }
+
+  .pacman {
+
+  right: -109%;
+  bottom: 133%;
+  width: 61%;
+  position: relative;
+  }
+
+  .pacman_text_box {
+    width: 54%;
+    margin-left: 3%;
+    margin-right: 38%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    /*! height: auto; */
+  }
+
 }
 
 @media(max-width: 1000px) {
@@ -199,6 +217,29 @@
     /*! width: auto; */
 }
 
+.pacman_text_box {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.pacman_text_box h1 {
+  font-size: xxx-large;
+  width: auto;
+}
+
+.pacman_text_box p {
+  font-size: x-large;
+  /*! margin: 0; */
+  /*! padding: 1%; */
+}
+.pacman_background_box {
+  /*! width: auto; */
+  /*! height: 100%; */
+  /*! display: inline; */
+  /*! width: auto; */
+}
 
   .sonic_text_box {
     margin: auto;
@@ -292,5 +333,13 @@
 
   .sonic {
     display: none;
+  }
+
+  .pacman {
+    display: none;
+  }
+
+  .sonic_box {
+    margin-bottom: 20%;
   }
 }
