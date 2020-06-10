@@ -12,7 +12,6 @@
     left: 30px;
     top: 1267px;
     width: 37%;
-    /*! position: absolute; */
   }
 
   .donkey {
@@ -42,24 +41,19 @@
     margin-right: 38%;
     margin-top: 2%;
     margin-bottom: 10%;
-    /*! height: auto; */
   }
 
   .link {
 
   right: 53%;
   width: 60%;
-  /*! height: auto; */
-  /*! bottom: 87%; */
   top: -86%;
   }
 
   .mario {
     width: 200px;
     height: 300px;
-    /*! top: 0; */
     right:;
-    /*! left: %; */
     float: right;
     top: -45%;
     right: -6%;
@@ -87,7 +81,6 @@
     margin-left: 38%;
     margin-top: 2%;
     margin-bottom: 10%;
-    /*! height: auto; */
   }
 
   .pacman {right: 0;top: 1921px;width: 29%;position: absolute;position: a;}
@@ -98,7 +91,6 @@
     margin-right: 38%;
     margin-top: 2%;
     margin-bottom: 10%;
-    /*! height: auto; */
   }
 
   .switch {
@@ -130,18 +122,15 @@
   }
 
   .top_panel {
-    /*! padding: 3%; */
     width: 100%;
     height: auto;
     flex-direction: column;
-    /*! opacity: 1; */
     background: rgba(76, 212, 176, .80);
     position: fixed;
     z-index: 22;
   }
 
   main {
-    /*! padding-top: 20%; */
     padding-bottom: 30%;
     padding-top: 30%;
   }
@@ -166,7 +155,6 @@
   }
 
   .menu_box {
-    /*! display: none; */
     width: 100%;
   }
 
@@ -188,15 +176,8 @@
 
   .orange_text_box p {
     font-size: x-large;
-    /*! margin: 0; */
-    /*! padding: 1%; */
   }
-  .orange_background_box {
-    /*! width: auto; */
-    /*! height: 100%; */
-    /*! display: inline; */
-    /*! width: auto; */
-}
+
 
   .donkey_text_box {
     margin: auto;
@@ -214,15 +195,8 @@
 
   .donkey_text_box p {
     font-size: x-large;
-    /*! margin: 0; */
-    /*! padding: 1%; */
   }
-  .donkey_background_box {
-    /*! width: auto; */
-    /*! height: 100%; */
-    /*! display: inline; */
-    /*! width: auto; */
-}
+
 
 .pacman_text_box {
   margin: auto;
@@ -238,15 +212,8 @@
 
 .pacman_text_box p {
   font-size: x-large;
-  /*! margin: 0; */
-  /*! padding: 1%; */
 }
-.pacman_background_box {
-  /*! width: auto; */
-  /*! height: 100%; */
-  /*! display: inline; */
-  /*! width: auto; */
-}
+
 
   .sonic_text_box {
     margin: auto;
@@ -262,15 +229,7 @@
 
   .sonic_text_box p {
     font-size: x-large;
-    /*! margin: 0; */
-    /*! padding: 1%; */
   }
-  .sonic_background_box {
-    /*! width: auto; */
-    /*! height: 100%; */
-    /*! display: inline; */
-    /*! width: auto; */
-}
 
   .blue_text_box {
     margin: auto;
@@ -318,7 +277,6 @@
   width: 100%;
     height: auto;
   margin: auto;
-  /*! opacity: .50; */
   position: fixed;
  background: rgba(76, 212, 176, .80);
   transition: top 0.25s ease-in-out;

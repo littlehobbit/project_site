@@ -26,7 +26,6 @@ body {
 .logo_name {
   font-size: x-large;
   margin: 0;
-  /*! width: auto; */
   white-space: nowrap;
 }
 
@@ -51,11 +50,7 @@ body {
   height: 100%;
   float: right;
   width: auto;
-  /*! margin-right: 15%; */
-  /*! margin-left: ; */
-  /*! margin: auto; */
   margin-left: 44%;
-  /*! margin-right: 2%; */
 }
 
 .menu_item {
@@ -88,11 +83,9 @@ a {
 }
 
 .welcome_box {
-  /*! padding-top: 5%; */
   width: 100%;
   height: auto;
   margin-bottom: 10%;
-  /*! margin-top: 17%; */
 }
 
 
@@ -111,9 +104,7 @@ a {
 
 footer {
   background-color: #4CD4B0;
-  /*! height: 98px; */
   height: auto;
-  /*! display: flex; */
 }
 
 .blue_text_box {
@@ -142,18 +133,15 @@ footer {
 .mario {
   width: 248px;
   position: relative;
-  /*! right: 25%; */
   float: right;
   right: -20%;
   bottom: 75%;
 }
 
 .about_box {
-  /*! padding-top: 5%; */
   width: 100%;
   height: auto;
   margin-bottom: 10%;
-  /*! margin-top: 17%; */
 }
 
 
@@ -171,7 +159,6 @@ footer {
 .orange_text_box {
   width: 40%;
   height: auto;
-  /*! margin-right: 5%; */
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(242, 77, 22, .95);
@@ -189,36 +176,23 @@ footer {
 }
 
 .orange_text_box p {
-  /*! padding: 5%; */
-  /*! padding-right: 10%; */
   margin: 6%;
-  /*! font-size: large; */
 }
 
 .link {
   width: 100%;
   position: relative;
-  /*! right: 25%; */
   float: left;
   right: 120%;
 
-  /*! top: -139%; */
   bottom: 130%;
-}
-
-footer {
-  /*! height: auto; */
 }
 
 .footer_container {
   padding: 1%;
   display: flex;
-  /*! width: 100%; */
-  /*! float: right; */
 }
 .info {
-  /*! float: ; */
-  /*! float: right; */
   float: left;
   width: auto;
 }
@@ -241,11 +215,8 @@ footer {
 }
 
 .games_box {
-  /*! padding-top: 5%; */
   width: 100%;
   height: auto;
-  /*! margin-bottom: 5%; */
-  /*! margin-top: 17%; */
   z-index: 0;
 }
 
@@ -279,13 +250,9 @@ footer {
 .games_text_box2 {
   width: 37%;
   height: auto;
-  /*! margin-left: 10%; */
-  /*! margin-top: 2%; */
-  /*! margin-bottom: 2%; */
   background-color: rgba(76, 212, 176, .95);
   padding-bottom: 2%;
   position: relative;
-  /*! top: 56%; */
   top: -243px;
   left: 7%;
 }
@@ -311,7 +278,6 @@ footer {
 .donkey_text_box {
   width: 40%;
   height: 300px;
-  /*! margin-right: 5%; */
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(242, 77, 22, .95);
@@ -329,10 +295,7 @@ footer {
 }
 
 .donkey_text_box p {
-  /*! padding: 5%; */
-  /*! padding-right: 10%; */
   margin: 6%;
-  /*! font-size: large; */
 }
 
 .donkey {right: 5%;top: 829px;width: 26%;position: absolute;}
@@ -352,7 +315,6 @@ footer {
 .sonic_text_box {
   width: 40%;
   height: 300px;
-  /*! margin-right: 5%; */
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(76, 212, 176, .95);
@@ -370,10 +332,7 @@ footer {
 }
 
 .sonic_text_box p {
-  /*! padding: 5%; */
-  /*! padding-right: 10%; */
   margin: 6%;
-  /*! font-size: large; */
 }
 
 .sonic {left: 124px;top: 1396px;width: 15%;position: absolute;}
@@ -393,7 +352,6 @@ footer {
 .pacman_text_box {
   width: 40%;
   height: 300px;
-  /*! margin-right: 5%; */
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(237,216,52, .95);
@@ -411,10 +369,7 @@ footer {
 }
 
 .pacman_text_box p {
-  /*! padding: 5%; */
-  /*! padding-right: 10%; */
   margin: 6%;
-  /*! font-size: large; */
 }
 
 .pacman {right: 87px;top: 1977px;width: 25%;position: absolute;}
@@ -451,13 +406,11 @@ footer {
 .console_text_box p {
   padding: 5%;
   padding-right: 10%;
-  /*! margin: auto; */
 }
 
 .ps2 {
     width: 313px;
   position: relative;
-  /*! right: 25%; */
   float: right;
   right: -20%;
   bottom: 75%;
